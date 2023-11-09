@@ -1,0 +1,79 @@
+.nav-logo{
+    height: 200px;
+}
+.mybody{
+   
+}
+.item-nav{
+    color: rgb(44, 44, 240);
+    font-size: 200%;
+    
+}
+.item-nav:hover{
+    color: rgb(34, 247, 44);
+}
+.anchor{
+    margin-left: auto;
+}
+.farm-name{
+    color: rgb(3, 132, 244);
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 70vh;
+    
+}
+.home-left{
+    
+    padding-left: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+.logoimage{
+    height: 85px;
+    padding: 10px;
+}
+.home-right{
+    
+    padding-right: 200px;
+}
+.hed{
+    text-align: right;
+}
+.parag{
+   text-align: right;
+}
+.services{
+    padding-left: 100px;
+    padding-top: 80px;
+    text-align: center;
+}
+.ser-h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(248, 45, 13);
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-style: italic;
+}
+.services2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.serv-sub-cont{
+    border:2px rgb(254, 20, 8) solid;
+    margin: 20px;
+    width: 300px;
