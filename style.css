@@ -108,11 +108,21 @@
        padding-left: 0%;
        padding-right: 70px;
     }
-    .services2{
-        
-        padding-left: 10px;
+    .services {
+        text-align: center; /* Align the services container to the left */
+    }
+
+    .services2 {
         display: flex;
         flex-direction: column;
+        justify-content: space-between; /* Distribute service sub-containers evenly */
+        align-items: flex-start; /* Align items to the start (top) of the container */
+        padding-right: 80px;
+    }
+
+    .serv-sub-cont {
+        width: 70%; /* Adjust the width of each service sub-container as needed */
+        
     }
     
 }
