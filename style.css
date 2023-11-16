@@ -77,3 +77,35 @@
     border:2px rgb(254, 20, 8) solid;
     margin: 20px;
     width: 300px;
+}
+@media only screen and (max-width: 600px) {
+    /* Styles for screens smaller than 600px */
+    .home-right {
+        padding: 20px;
+    }
+    .home-left {
+        padding: 20px;
+    }
+    .home{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 70vh;
+    }
+    .cards{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .services{
+        padding-left: 10px;
+    }
+    
+}
+    
