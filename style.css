@@ -36,7 +36,7 @@
     height: 70vh;
     
 }
-.home-left{
+.home-right{
     
     padding-left: 200px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -46,7 +46,7 @@
     height: 85px;
     padding: 10px;
 }
-.home-right{
+.home-left{
     
     padding-right: 200px;
 }
@@ -80,18 +80,19 @@
 }
 @media only screen and (max-width: 600px) {
     /* Styles for screens smaller than 600px */
-    .home-right {
-        padding: 20px;
-    }
     .home-left {
         padding: 20px;
     }
+    
     .home{
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
-        height: 70vh;
+        height: 150vh;
+    }
+    .home-right{
+        padding: 100px;
     }
     .cards{
         display: flex;
@@ -103,9 +104,15 @@
         padding-right: 20px;
         
     }
-    .services{
+    .ser-h1{
+       padding-left: 0%;
+       padding-right: 70px;
+    }
+    .services2{
+        
         padding-left: 10px;
+        display: flex;
+        flex-direction: column;
     }
     
 }
-    
