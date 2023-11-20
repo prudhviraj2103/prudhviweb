@@ -223,7 +223,7 @@
 }
 
 .parag{
-    text-align: right;
+    text-align: center;
     font-family: 'Noto Sans Telugu', sans-serif;
  }
  
@@ -243,6 +243,9 @@
         flex-direction: column;
         height: 110vh;
         
+    }
+    .parag{
+        margin: 10px;
     }
     
     
