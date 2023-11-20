@@ -46,24 +46,12 @@
     height: 70vh;
     
 }
-.home-right{
-    
-    padding-right: 10px;
-    padding-top: 100px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
-}
+
 .logoimage{
     height: 85px;
     padding: 10px;
 }
-.home-left{
-    
-    padding-left: 200px;
-    
-    
-    
-}
+
 .hed{
     text-align: right;
 }
@@ -245,12 +233,7 @@
         height: 130vh;
         
     }
-    .home-left{
-        padding-left: 80px;
-    }
-    .home-right{
-        padding-right: 20px;
-    }
+    
     .cards{
         display: flex;
         flex-direction: column;
