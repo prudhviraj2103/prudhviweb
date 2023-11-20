@@ -53,10 +53,10 @@
 }
 
 .hed{
-    text-align: right;
+    text-align: center;
 }
 .parag{
-   text-align: right;
+   text-align: center;
    font-family: 'Noto Sans Telugu', sans-serif;
 }
 
@@ -264,6 +264,9 @@
         justify-content: center;
         margin-left: 10px;
         
+    }
+    .parag{
+        margin: 10px;
     }
 }
 
