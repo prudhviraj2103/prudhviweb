@@ -186,6 +186,26 @@
     border-radius: 8px;
     margin-right: 10px;
 }
+.download-image{
+    color: rgb(3, 248, 126);
+    background-image: linear-gradient(#2060f5, #5a2bf5);
+    font-family: 'Noto Sans Telugu', sans-serif;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.steps-button{
+    color: rgb(1, 0, 18);
+    background-image: linear-gradient(#15f805, #15fc05);
+    font-family: 'Noto Sans Telugu', sans-serif;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
 
 .custom-outline-button {
     color: #0e0c01;
