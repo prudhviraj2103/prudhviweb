@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+Osmanya&family=Noto+Sans+Telugu:wght@700&family=Ubuntu&display=swap');
+
+.food-munch-logo {
+    width: 100px;
+    height: auto;
+}
+
+.banner-heading {
+    color: rgb(6, 6, 6);
+    font-family: 'Noto Sans Telugu', sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-caption {
+    color: #0364f6;
+    font-family: 'Noto Sans Telugu', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+
+@media (max-width: 600px){
+    .banner-section-bg-container{
+        padding-top: 200px;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
