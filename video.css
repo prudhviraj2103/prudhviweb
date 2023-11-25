@@ -18,7 +18,16 @@
     font-size: 24px;
     font-weight: 300;
 }
-
+.custom-button {
+    color: rgb(248, 3, 3);
+    background-image: linear-gradient(#f5d520, #f5d62b);
+    font-family: 'Noto Sans Telugu', sans-serif;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
 
 
 @media (max-width: 600px){
@@ -28,5 +37,12 @@
         height: auto;
         display: block;
         margin: 0 auto;
+    }
+    .video-img{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 30px;
     }
 }
