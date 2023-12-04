@@ -235,6 +235,31 @@
 .wcu-card-description{
     font-family: 'Noto Sans Telugu', sans-serif;
 }
+.custom-buttonn {
+    color: rgb(253, 255, 254);
+    background-image: linear-gradient(#080808, #030303);
+    font-family: 'Noto Sans Telugu', sans-serif;
+    width: 190px;
+    height: 50px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+@keyframes blink {
+    0%, 50%, 100% {
+      opacity: 1;
+    }
+    25%, 75% {
+      opacity: 0;
+    }
+  }
+
+  .blinking-arrow {
+    display: inline-block;
+    font-size: 50px;
+    animation: blink 2s infinite;
+    color: #20f53c;
+  }
   
 @media (max-width: 600px){
     .banner-section-bg-container{
@@ -268,6 +293,14 @@
     }
     .parag{
         margin: 10px;
+    }
+    .custom-buttonn{
+        margin-left: 80px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 20px; 
     }
 }
 
