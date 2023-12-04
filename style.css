@@ -231,7 +231,7 @@
  }
 .custom-buttonn {
     color: rgb(253, 255, 254);
-    background-image: linear-gradient(#080808, #030303);
+    background-image: linear-gradient(#046ffa, #048ef7);
     font-family: 'Noto Sans Telugu', sans-serif;
     width: 190px;
     height: 50px;
@@ -283,7 +283,7 @@
         padding: 30px;
     }
     .custom-buttonn{
-        margin-left: 80px;
+        margin-left: 50px;
         margin-top: 10px;
         display: flex;
         align-items: center;
